@@ -1,5 +1,5 @@
 import React from 'react'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createHashRouter, RouterProvider } from 'react-router-dom'
 import Home from './components/Home'
 import Products from './components/Products'
 import Contact from './components/Contact'
@@ -9,7 +9,7 @@ import ProductDetail from './components/ProductDetail'
 import { ToastContainer, toast } from 'react-toastify'
 import './components/css_codes/base.css'
 export default function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
       path: "/",
       element: <div>
