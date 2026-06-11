@@ -6,7 +6,7 @@ A simple and modern React application built using React + Vite with React Router
 
 ## 🌐 Live Demo
 
-👉 [View Project](https://durgaprasad4289.github.io/React-Router/)
+👉 [View Project](https://durgaprasadcodes.github.io/React-Router/)
 
 ---
 
